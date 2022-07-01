@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class GreetingFunctionTest {
 
     @Test
-    public void testSimpleLambdaSuccess() throws Exception {
+    public void testGreetingLambdaSuccess() throws Exception {
         var out = LambdaClient.invoke(String.class, "Bill");
         Assertions.assertEquals("Enter Serverless Functions with Quarkus, Bill", out);
     }
